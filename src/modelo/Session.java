@@ -25,7 +25,7 @@ public class Session {
         return fecha;
     }
     
-    public boolean agregarAsistencia(Asistencia asi){
+    public boolean agregarAsistencia(Asistencia asistencia){
         boolean retorno = false;
         
         return retorno;
