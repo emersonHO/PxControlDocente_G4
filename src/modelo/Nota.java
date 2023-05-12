@@ -1,7 +1,6 @@
 
 package modelo;
 
-
 public class Nota {
     private float nota;
     private NotaTipo tipo;
@@ -22,7 +21,5 @@ public class Nota {
     public void setNota(float nota) {
         this.nota = nota;
     }
-    
-    
-    
+     
 }

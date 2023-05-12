@@ -7,9 +7,9 @@ public class Curso {
     private String nombre;
     private int num_sessiones;
     private Docente docente;
-    private Matricula [ ] matriculas;
+    private Matricula [] matriculas;
     private int ind_matricula;
-    private Session [ ] sesiones; 
+    private Session [] sesiones; 
     private int ind_sesiones;
 
     public Curso(String codigo, String nombre, int num_sessiones, Docente docente) {
@@ -23,9 +23,9 @@ public class Curso {
         
         this.sesiones = new Session[num_sessiones];
         this.ind_sesiones = 0;
-        
+      
     }
-    
+        
     /*
     +agregarMatricula(mat:Matricula)
     +buscarMatricula(al:Alumno):boolean

@@ -38,8 +38,4 @@ public class NotaTipo {
         return "NotaTipo{" + "nombre=" + nombre + ", peso=" + peso + ", activo=" + activo + '}';
     }
     
-    
-    
-    
-    
 }

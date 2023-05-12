@@ -1,7 +1,6 @@
 
 package modelo;
 
-
 public class Alumno {
     private String codigo;
     private String nombre;
